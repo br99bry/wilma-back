@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "records",
+  "info": {
+    "singularName": "record",
+    "pluralName": "records",
+    "displayName": "records",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    },
+    "whatsapp": {
+      "type": "biginteger",
+      "required": true
+    },
+    "password": {
+      "type": "password"
+    },
+    "nombre": {
+      "type": "text",
+      "required": false
+    },
+    "domicilio": {
+      "type": "text"
+    },
+    "rfc": {
+      "type": "text"
+    },
+    "indemnizacion": {
+      "type": "biginteger"
+    },
+    "ciudad_interes": {
+      "type": "string"
+    },
+    "valor_activos": {
+      "type": "text"
+    }
+  }
+}
